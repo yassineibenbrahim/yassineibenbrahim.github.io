@@ -56,7 +56,7 @@ const projects = [
   },
   {
     title: "AI-powered Tic Tac Toe Game",
-    cardImage: "assets/images/project-page/image tic_tac_toe.png",
+    cardImage: "assets/images/project-page/image_tic_tac_toe.png",
     description:
       "Tested a React Tic Tac Toe Game using Jest and React Testing Library.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
