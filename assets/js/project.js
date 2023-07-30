@@ -55,8 +55,8 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "Tic Tac Toe Game",
-    cardImage: "assets/images/project-page/tic-tac-toe.png",
+    title: "AI-powered Tic Tac Toe Game",
+    cardImage: "assets/images/project-page/image tic tac toe.png",
     description:
       "Tested a React Tic Tac Toe Game using Jest and React Testing Library.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
