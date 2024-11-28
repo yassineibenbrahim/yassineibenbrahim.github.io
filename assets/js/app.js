@@ -7,6 +7,8 @@ script.src="https://unpkg.com/sweetalert/dist/sweetalert.min.js";
 document.body.appendChild(script);
 
 // Header
+//later on add this    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
+
 
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
@@ -24,7 +26,6 @@ let header = $(`
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item">
