@@ -4,26 +4,21 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
-  {
+  /*{
     title: "Software Development Intern",
     cardImage: "assets/images/experience-page/flipkart.jpg",
     place: "Flipkart",
     time: "(May, 2020 - present)",
     desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
   },
+
+  */
   {
-    title: "Student Developer",
+    title: "Freelancer",
     cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
-  },
-  {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    place: "Remote",
+    time: "(Mar 2021 - Present)",
+    desp: "<li> Creating Websites</li><li>Creating websites for businesses, including design for brand identity </li><li>API integration, SEO optimisation.</li>",
   },
 ];
 
@@ -61,6 +56,7 @@ document.addEventListener("DOMContentLoaded", showCards2);
 
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
+  /*
   {
     title: "GirlScript Summer Of Code 2020",
     cardImage: "assets/images/experience-page/1.jpg",
@@ -86,7 +82,7 @@ const volunteershipcards = [
       "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
   },
 ];
-
+*/
 const showCards = () => {
   let output = "";
   volunteershipcards.forEach(
@@ -110,7 +106,8 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
-  {
+  
+  /*{
     title: "The Uplift Project",
     subtitle: "Mentor",
     image: "assets/images/experience-page/uplift.png",
@@ -214,7 +211,7 @@ const mentor = [
     image: "assets/images/experience-page/nhacks.png",
     desp: "NHacks VI was a hackathon that aimed to encourage students everywhere to develop skills in computer science by creating tangible products that they're proud of. It initially started as Michigan's largest high school hackathon.",
     href: "https://nhacks-vi.devpost.com/",
-  },
+  },*/
 ];
 
 const showCards3 = () => {
